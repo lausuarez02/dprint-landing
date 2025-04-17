@@ -7,7 +7,7 @@ import CustomCursor from '../components/CustomCursor';
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: "dprint - Decentralized 3D Printing Network",
+  title: "DPRINT - Decentralized 3D Printing Network",
   description: "Access a global network of 3D printers. Print anything, anywhere with our AI-powered platform.",
 };
 
