@@ -1,7 +1,6 @@
 import AnimatedHero from '../components/AnimatedHero';
 import AnimatedViewer from '../components/AnimatedViewer';
 import AnimatedFeatures from '../components/AnimatedFeatures';
-import AnimatedCTA from '../components/AnimatedCTA';
 import NavigationButton from '../components/NavigationButton';
 
 export default function Home() {
