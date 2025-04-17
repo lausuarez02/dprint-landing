@@ -9,7 +9,7 @@ export default function AnimatedHero() {
         // initial={{ opacity: 0, scale: 0.2 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, type: "spring" }}
-        className="text-[10rem] md:text-[15rem] font-bold leading-none"
+        className="text-[5rem] sm:text-[7rem] md:text-[10rem] lg:text-[15rem] font-bold leading-none"
         style={{ 
           fontFamily: 'Roond, sans-serif !important',
           color: '#FEE362',
@@ -20,7 +20,7 @@ export default function AnimatedHero() {
       >
         DPRINT
       </motion.h1>
-      <div className="h-16 md:h-32"></div>
+      <div className="h-8 sm:h-12 md:h-16 lg:h-32"></div>
     </div>
   );
 } 
