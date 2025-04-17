@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f172a; /* Dark blue */
+  --foreground: #f8fafc; /* Light text */
 }
 
 @theme inline {
@@ -14,13 +14,39 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f172a;
+    --foreground: #f8fafc;
   }
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(to bottom right, #0f172a, #1e293b, #334155);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  cursor: none; /* Hide the default cursor */
+}
+
+/* Override title font */
+h1 {
+  font-family: 'Roond', sans-serif !important;
+}
+
+/* Grid pattern background */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  font-family: 'Roond', sans-serif !important;
+}
+.bg-middle-section {
+  background-color: #FEE362;
+  font-family: 'Roond', sans-serif !important;
+}
+
+/* For links and clickable elements */
+a, button, [role="button"] {
+  cursor: none;
+  font-family: 'Roond', sans-serif !important;
 }

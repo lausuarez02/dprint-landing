@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Roond';
+  src: url('/fonts/Roond-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-display: block;
+}
